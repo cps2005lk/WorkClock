@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# Local secrets / machine-specific data - never commit these
+appsettings.json
+session.json
+cookie.txt
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# IDE
+.vs/
+*.csproj.user
